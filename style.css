@@ -2,4 +2,8 @@
 @import url("./style/common.css");
 
 @import url("./style/desktop/petstory-desktop.css")  /* (max-width: 1440px) and (min-width: 769px) */;
-
+@import url("./style/desktop/Backstage-desktop.css");
+@import url("./style/desktop/pets-desktop.css");
+@import url("./style/desktop/pick.css");
+@import url("./style/desktop/testimonials.css");
+@import url("./style/desktop/footer.css")

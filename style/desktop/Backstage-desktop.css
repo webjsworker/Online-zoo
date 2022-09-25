@@ -1,0 +1,90 @@
+.The_Backstage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 1600px;
+    height: 700px;
+    margin: 0 auto;
+}
+
+.The_Backstage__wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 1161px;
+    height: 403px;
+
+}
+
+.The_Backstage__wrapper img {
+    width: 609px;
+    height: 403px;
+    background: url(bamboo-cap-4767687_1920.jpg);
+    backdrop-filter: blur(2px);
+}
+
+.The_Backstage__content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+}
+
+.The_Backstage__title {
+    width: 465px;
+    height: 116px;
+    margin-top: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 120%;
+    color: #333B41;
+}
+
+.The_Backstage__subtitle {
+
+    height: 42px;
+    width: 465px;
+    margin-top: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #333B41;
+}
+
+.The_Backstage__row {
+    width: 217px;
+    height: 29px;
+    margin-top: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    color: #333B41;
+}
+
+.The_Backstage__row-descriptions {
+    width: 465px;
+    height: 105px;
+    margin-top: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #333B41;
+}
+
+.The_Backstage__flower {
+    position: absolute;
+    width: 193px;
+    height: 605px;
+    right: 0;
+    top: 10px;
+    background: url(../../assets/desktop/Backstage/flower_foto1.png);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}

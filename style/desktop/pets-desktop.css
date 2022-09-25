@@ -1,0 +1,123 @@
+.pets {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    width: 1600px;
+    height: 1000px;
+    margin: 0 auto;
+    /* background-color: aquamarine; */
+}
+
+.pets__wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.pets__card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1158px;
+    height: 872px;
+    /* background: #8c7f7f; */
+}
+
+.pets__item {
+    box-sizing: border-box;
+    width: 366px;
+    height: 426px;
+    border-radius: 5px;
+    border: 2px solid #FA6F32;
+    /* background-color: #f7b193; */
+}
+
+.pets__title {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    
+}
+
+.pets__pic {
+    width: 48px;
+    height: 38px;
+    background-repeat: no-repeat;
+    background-image: url(../../assets/desktop/Pets/card1/banana-bamboo_icon.png);
+
+}
+
+.pets__img {
+    width: 363px;
+    height: 366px;
+    border-radius: 5px;
+}
+
+.pets__name {
+    width: 294px;
+    height: 22px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.pets__descriptions {
+    width: 294px;
+    height: 18px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 120%;
+    color: #000000;
+}
+
+.pets__prev,
+.pets__next {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 62px;
+    height: 62px;
+    color: white;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    border-radius: 50%;
+}
+
+.pets__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 298px;
+    height: 54px;
+    text-transform: uppercase;
+    color: white;
+    background: #FE9013;
+    border-radius: 25px;
+}
+.pets__decorations-pic1{
+position: absolute;
+width: 240px;
+height: 360px;
+bottom: 0;
+left: 0;
+background-repeat: no-repeat;
+background: url(../../assets/desktop/Pets/palm_foto.png);
+}
+.pets__decorations-pic2{
+    position: absolute;
+    width: 240px;
+    height: 260px;
+    bottom: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    background: url(../../assets/desktop/Pets/strelitzia\ 1.png);
+    }
